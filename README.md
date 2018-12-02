@@ -14,3 +14,24 @@
 以上資料中的相關金鑰(Firebase網路API金鑰...)皆已模糊化可能無法直接運行，需套用自己的金鑰
 如有任何問題請聯繫：littlechintw@gmail.com、jyunwei364@gmail.com
 ```
+
+# 需要修改的數據
+## CPF_C_RFID/CPF_C_RFID.ino
+```
+const int cardnum = {欲註冊卡片數量};
+cardid(1, 0, 0, 0, 0); //卡片ID-1
+cardid(2, 0, 0, 0, 0); //卡片ID-2
+cardid(3, 0, 0, 0, 0); //卡片ID-3
+```
+## CPF_NodeMCU/CPF_NodeMCU.ino
+```
+#define FIREBASE_HOST "xxxxxx-xxxxx.firebaseio.com" //資料庫連結
+#define FIREBASE_AUTH "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" //資料庫api
+#define WIFI_SSID "xxxx" //wifi名稱
+#define WIFI_PASSWORD "xxxxxxxx" //wifi密碼
+```
+
+### 備註
+```
+telegramBotNodemcu此資料夾內檔案為測試檔案
+```
