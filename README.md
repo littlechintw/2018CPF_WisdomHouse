@@ -15,15 +15,15 @@
 如有任何問題請聯繫：littlechintw@gmail.com、jyunwei364@gmail.com
 ```
 
-# 需要修改的數據
-## CPF_C_RFID/CPF_C_RFID.ino
+## 需要修改的數據
+### CPF_C_RFID/CPF_C_RFID.ino
 ```
 const int cardnum = {欲註冊卡片數量};
 cardid(1, 0, 0, 0, 0); //卡片ID-1
 cardid(2, 0, 0, 0, 0); //卡片ID-2
 cardid(3, 0, 0, 0, 0); //卡片ID-3
 ```
-## CPF_NodeMCU/CPF_NodeMCU.ino
+### CPF_NodeMCU/CPF_NodeMCU.ino
 ```
 #define FIREBASE_HOST "xxxxxx-xxxxx.firebaseio.com" //資料庫連結
 #define FIREBASE_AUTH "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" //資料庫api
