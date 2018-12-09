@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body {
+    padding: 120px 0;
+	margin-left:15%;
+	margin-right:15%;
+	background-color: rgb(20, 20, 20);
+	font-size:130%;
+	/*font-family: 'Noto Sans CJK TC';*/
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+.updatedata {
+    background-color:#163913;
+    border:2px;
+    padding:3px;
+}
+
+.uddetail {
+    color:#40BFBF;
+    font-size:70%;
+    margin-left:5%;
+    margin-right:5%;
+}
