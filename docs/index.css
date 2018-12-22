@@ -6,9 +6,9 @@ body {
 	font-size:150%;
 }
 
-@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
-* {
-    font-family: 'Noto Sans CJK TC';
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+body{
+  font-family: 'Noto Sans TC', sans-serif;
 }
 
 .video-container {
