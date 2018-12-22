@@ -1,23 +1,26 @@
-@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 body {
     padding: 120px 0;
 	margin-left:15%;
 	margin-right:15%;
 	background-color: rgb(20, 20, 20);
-	font-size:130%;
-	/*font-family: 'Noto Sans CJK TC';*/
-	font-family: 'Noto Sans TC', sans-serif;
+	font-size:150%;
 }
 
-.updatedata {
-    background-color:#163913;
-    border:2px;
-    padding:3px;
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+    font-family: 'Noto Sans CJK TC';
 }
 
-.uddetail {
-    color:#40BFBF;
-    font-size:70%;
-    margin-left:5%;
-    margin-right:5%;
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
 }
+
+.video-container iframe, .video-container object, .video-container embed {
+position: absolute;
+top: 0;left: 0;
+width: 100%;
+height: 100%;}
