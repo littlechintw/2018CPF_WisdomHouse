@@ -1,7 +1,7 @@
 # 2018CPF_WisdomHouse
 
 ## 此空間為2018生活智慧「乘雲駕物」全國雲教授創意教材設計競賽 參賽之作品"Wisdom House"的作品資料相關檔案內容
-[此專案相關網頁](https://litttlechin.github.io/2018CPF_WisdomHouse/)
+[此專案網頁litttlechin.github.io/2018CPF_WisdomHouse](https://litttlechin.github.io/2018CPF_WisdomHouse/)
 ## 包含： Arduino完整程式碼
 
 ```
